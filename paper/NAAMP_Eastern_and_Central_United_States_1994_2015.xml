@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tasha M. Foreman</origin>
+        <origin>Evan H. Campbell Grant</origin>
+        <origin>Linda A. Weir</origin>
+        <pubdate>2017</pubdate>
+        <title>North American Amphibian Monitoring Program (NAAMP) anuran detection data from the eastern and central United States (1994-2015)</title>
+        <geoform>Comma delimited CSV files</geoform>
+        <pubinfo>
+          <pubplace>Laurel, MD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5066/F7G44NG0</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The North American Amphibian Monitoring Program (NAAMP) was a collaborative citizen science effort between the US Geological Survey (USGS) and 26 Partners (state agencies, universities, and nonprofits) for monitoring calling amphibian populations over much of the eastern and central United States.  Initiated in 1997 in response to needs set forth by the Declining Amphibian Populations Task Force in 1994 regarding increased anecdotal observations of global amphibian declines, NAAMP was designed to provide scientifically and statistically defensible, long-term distribution and trends data for calling amphibian populations at the state and regional level in the United States.  The USGS discontinued coordination of the program at the conclusion of the 2015 field season.  Modeled after the USGS Breeding Bird Survey, NAAMP used a network of random and state-requested non-random roadside routes with listening stops near wetlands to collect frog and toad occupancy and environmental data in predominantly unprotected lands.  Data collection and verification under a unified protocol began in 2001 and continued through 2015 with the addition of observer assessment scores in 2006. The USGS utilized verified 2001-2015 data from random routes to produce occupancy trend reports for anuran species of the Northeast, Southeast, and Midwest regions and states of the United States.  This dataset includes all raw, verified NAAMP data from 1997 through 2015 and also raw, verified data from Partner States that precede the program (1994-1996).  Data preceding 2001 followed variations of the unified protocol.  Please refer to metadata for additional information regarding protocol and a list of the represented states and see the Species.csv file for the list of 58 represented species.</abstract>
+      <purpose>Data were collected to provide scientifically and statistically defensible, long-term distribution and trends data for calling amphibian populations at the state and regional level in the United States. With almost two decades of data, the USGS NAAMP dataset is the only large-scale dataset of randomly sampled locations for the occurrence and relative population abundance of calling frogs and toads in predominantly unprotected lands, and is therefore a valuable spatial data resource, with the potential to provide the conservation and management communities with valuable long-term information regarding frog and toad population trends and responses.  Data can act as baseline comparisons for future datasets and can also be combined with biotic and abiotic datasets to discover potential influences on observed population trends.  The dataset is also useful for the development and testing of new data analysis methods for occupancy studies, as well as in-class educational analysis opportunities.  Dataset includes observations of 58 species found in the United States including listed, threatened, common, elusive, invasive, and exotic species, and is used by State agencies to understand the distribution and change in populations of amphibians, and is sometimes the only data on this taxonomic group considered in state-wide evaluations of resource condition.</purpose>
+      <supplinf>The species observations in this dataset are considered verified species detection/non-detection data (i.e. the data represent an observer's ability to detect a species, given that it is present and not detect it, given that it is not present).  The survey-specific environmental data files were used as covariates for modeling the detection probability associated with each species during the analyzed time period.  Detection/non-detection data should never be considered a true indication of species presence-absence within a landscape without first explicitly considering the detection probability associated with the observations using appropriate occupancy detection models.  Please pay close attention to variations in sampling protocol across years as this will affect what data are comparable. Survey times were scheduled to occur during peak breeding periods as a means to increase detection rates.  Since the focus was placed on sampling during peak periods as opposed to observance of first calls of the year, this data would likely not be appropriate for determining precise changes in breeding phenology. Quality Control procedures used during the data verification process procedure, to reduce the prevalence of false positives within the dataset, may have inadvertently introduced additional cases of false negatives within the dataset; see "Identification Methods and Completeness" for additional information.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>1994</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2015</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Not planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-106.83105468324</westbc>
+        <eastbc>-66.665039059842</eastbc>
+        <northbc>49.382372785529</northbc>
+        <southbc>24.766784521947</southbc>
+      </bounding>
+      <descgeog>Data were collected from 10 roadside wetlands (‘stops’ separated by at least 0.8km) along routes at least 8km long from across the 26 collaborating states, predominantly occurring on unprotected areas (i.e. very few stops were located on federal lands).</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>Amphibians</themekey>
+        <themekey>long-term ecological monitoring</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Metadata Identifier</themekt>
+        <themekey>USGS:583dc314e4b0d1899f9dea8d</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Alabama</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Indiana</placekey>
+        <placekey>Iowa</placekey>
+        <placekey>Kentucky</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Maine</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Michigan</placekey>
+        <placekey>Minnesota</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>New York</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>Pennsylvania</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>Tennessee</placekey>
+        <placekey>Texas</placekey>
+        <placekey>Vermont</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>West Virginia</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Evan H. Campbell Grant</cntper>
+          <cntorg>USGS Patuxent Wildlife Research Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>1 Migratory Way</address>
+          <city>Turners Falls</city>
+          <state>Massachusetts</state>
+          <postal>01376</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>413-863-3823</cntvoice>
+        <cntemail>ehgrant@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>NAAMP state coordinators and volunteers, Delaware Dept. of Natural Resources and Environmental Control, Florida Fish and Wildlife Commission, Florida State University Georgia Dept. of Natural Resources, Indiana Dept. of Natural Resources, Iowa Dept. of Natural Resources, East Kentucky Power Coop., Louisiana Dept. of Wildlife and Fisheries, Maine Audubon Society, Maryland Natural History Society, University of Massachusetts, Michigan Dep. of Natural Resources, Minnesota Dept. of Natural Resources, Mississippi Dept. of Wildlife, Fisheries and Parks Mission, Missouri Dept. of Conservation, New Jersey Conserve Wildlife Foundation, New York Hudson River Estuary Program, North Carolina Wildlife Resources Commission, Pennsylvania Fish and Boat Commission, University of South Carolina Salkehatchie, Middle Tennessee State University, Tennessee Wildlife Resources Agency, Texas Parks and Wildlife, Vermont North Branch Nature Center, Virginia Living Museum, West Virginia Marshall University</datacred>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>USGS Biocomplexity Thesaurus</taxonkt>
+        <taxonkey>Amphibians</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>Integrated Taxonomic Information System (ITIS)</origin>
+              <pubdate>2017</pubdate>
+              <title>Integrated Taxonomic Information System (ITIS)</title>
+              <geoform>ONLINE_REFERENCE</geoform>
+              <pubinfo>
+                <pubplace>Washington, D.C.</pubplace>
+                <publish>Integrated Taxonomic Information System (ITIS)</publish>
+              </pubinfo>
+              <onlink>http://itis.gov</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+        <ider>
+          <cntinfo>
+            <cntperp>
+              <cntper>Evan Grant</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>1 Migratory Way</address>
+              <city>Turners Falls</city>
+              <state>Massachusetts</state>
+              <postal>01376</postal>
+              <country>United States</country>
+            </cntaddr>
+            <cntvoice>01376</cntvoice>
+            <cntemail>01376</cntemail>
+          </cntinfo>
+        </ider>
+        <taxonpro>Sampling involved auditory transect surveys with identification of species based on their unique, species-specific, male breeding vocalizations.</taxonpro>
+        <taxoncom>Data were collected by 2,301 trained citizen scientists.  Observers were trained by state coordinators to identify species using audio soundfiles through 2001-2015. From 2006 through 2015, USGS also required all observers to pass a frog identification quiz on a biannual basis in order to use/release their data.  State coordinators reviewed all data entries at the conclusion of each season and flagged any questionable species observations as unlikely based on phenology, known range, or any indication that observers doubted their own identification of a species.  Flagging an observation removed it from the released dataset and from USGS trend analyses.  Despite these efforts, false positive errors (erroneous species ids) may still exist within the dataset.  Also, the very protocol designed to reduce false positives may have inadvertently introduced a small number of false negative errors if observations were erroneously considered false during verification or if an observer failed their call quiz or failed to take the quiz by their given deadline, thereby removing their associated observations from the dataset.  The full list of species and complexes included in the dataset is provided in the Species.csv file.</taxoncom>
+      </taxonsys>
+      <taxongen>All observations were identified to species based on species-specific breeding calls.  Species that were difficult to distinguish from similar sounding species (e.g. Hyla versicolor and H. chrysoscelis) were often identified as a species complex (e.g. Hyla chrysoscelis/versicolor complex) as opposed to a specific species in specific areas or U.S. states where range overlap occurred to avoid false identifications.  The dataset clearly reflects whether observations are of a species or of a species complex, within the "Species" column of the "Counts" datafile.  Dataset includes observations of 58 species found in the United States including listed, threatened, common, elusive, invasive, and exotic species. Note, database and data were not updated to account for the taxanomic split of Acris crepitans and A. blanchardi or the discovery of Lithobates kauffeldi.</taxongen>
+      <taxoncl>
+        <taxonrn>Kingdom</taxonrn>
+        <taxonrv>Animalia</taxonrv>
+        <taxoncl>
+          <taxonrn>Subkingdom</taxonrn>
+          <taxonrv>Bilateria</taxonrv>
+          <taxoncl>
+            <taxonrn>Infrakingdom</taxonrn>
+            <taxonrv>Deuterostomia</taxonrv>
+            <taxoncl>
+              <taxonrn>Phylum</taxonrn>
+              <taxonrv>Chordata</taxonrv>
+              <taxoncl>
+                <taxonrn>Subphylum</taxonrn>
+                <taxonrv>Vertebrata</taxonrv>
+                <taxoncl>
+                  <taxonrn>Infraphylum</taxonrn>
+                  <taxonrv>Gnathostomata</taxonrv>
+                  <taxoncl>
+                    <taxonrn>Superclass</taxonrn>
+                    <taxonrv>Tetrapoda</taxonrv>
+                    <taxoncl>
+                      <taxonrn>Class</taxonrn>
+                      <taxonrv>Amphibia</taxonrv>
+                      <taxoncl>
+                        <taxonrn>Order</taxonrn>
+                        <taxonrv>Anura</taxonrv>
+                      </taxoncl>
+                    </taxoncl>
+                  </taxoncl>
+                </taxoncl>
+              </taxoncl>
+            </taxoncl>
+          </taxoncl>
+        </taxoncl>
+      </taxoncl>
+    </taxonomy>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted</logic>
+    <complete>Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>No formal positional accuracy tests were conducted</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>No formal positional accuracy tests were conducted</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Runs, Stops, and Counts Data: For inclusion in the dataset, data from 1994 through 2005 must have been verified by state coordinators for accuracy and data from 2006 through 2015 had to have been verified and associated with a passing Observer Assessment Frog quiz score.  Qualifying data were downloaded into csv files and formatted, but not manipulated or processed in any way (i.e. all data are presented in the raw form).</procdesc>
+        <procdate>20161214</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Coordinates: Coordinates are not available for all survey sites (stops) in this dataset, because Observers did not provide them to State Coordinators and/or State Coordinators did not provide them to the NAAMP National Coordinator.  A final attempt was made by the National and State Coordinators to collect any missing coordinates from both active and retired routes in 2016.  A general attempt was made to ensure that coordinates were accurate (e.g. did they fall along the route, were they located at/near wetlands, did they match driving directions for the route), but there is no guarantee that all coordinates in the dataset are accurate.</procdesc>
+        <procdate>20161214</procdate>
+      </procstep>
+      <method>
+        <methtype>Field</methtype>
+        <methdesc>Routes were generated in a stratified random block design at USGS Patuxent Wildlife Research Center.  Routes were then distributed to State Coordinators.   These roadside routes were then groundtruthed to determine suitability (not too dangerous, not too noisy to hear) and stop placement.  There were 10 stops per route, at least 0.5 miles apart, and located in/near wetland habitats.  The wetland habitat was considered appropriate potential habitat (pond, vernal pool, roadside ditch, etc) during selection but the observed presence or absence of amphibians during or prior to selection was not used as a selection factor. 
+Each state established three or four sampling periods to cover the calling phenology of its local species.  States used three sampling periods, unless an additional period to target wood frogs was desired.  The sampling periods were created to target the peak vocalization times (thereby increasing detection probability) for early-, mid- and late-season breeding amphibians and to assist observers in understanding when to collect data.  States were permitted to adjust the sampling dates each year to account for an early or late arrival of the calling season. 
+A survey should have begun 30 minutes after sunset or later, but some began before sunset.  Appropriate sampling conditions are based upon wind, sky, and air temperature conditions to increase detection probability. 
+Stops were surveyed in numerical order, in one night by one observer.  We encouraged, but did not require, that one observer conduct all surveys of a route in a given year.  Multiple observers were instructed to each fill out their own datasheet, separately and independently, if they surveyed routes at the same time. 
+Observers recorded the time, sky code, and wind code, at the beginning and end of each survey to verify that the sampling conditions were met on the evening of the survey.  At each stop, air temperature was recorded to verify that sampling conditions were met on the sampling night; at least eight of the 10 stops must meet temperature guidelines. 
+Observers listened at each stop for 5 minutes, and reported each amphibian species heard calling.  The 5 minute listening period had no initial waiting period. Starting in 2006, the observers also recorded the number of cars that passed during the listening period and whether the moon or moonlight was visible.  The observer indicated whether background noise impaired his/her ability to hear.  If there was a major noise disturbance, lasting one minute or longer, the observer broke the listening period to avoid sampling during the excessive noise.  If such a time out was taken, this was noted on the datasheet.  After the major disturbance ended, the observers resumed listening for the time remaining before the break.</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Weir, L.A. and M.J. Mossman</origin>
+            <pubdate>2005</pubdate>
+            <title>North American Amphibian Monitoring Program (NAAMP). In - Amphibian Declines: conservation status of United States amphibians. University of California Press.</title>
+            <geoform>Book Chapter</geoform>
+            <onlink>None</onlink>
+          </citeinfo>
+        </methcite>
+      </method>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Runs</enttypl>
+        <enttypd>Contains basic environmental, observer, and route information at the route survey/run level (i.e. not at the stop/site survey level).</enttypd>
+        <enttypds>Producer-defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>State</attrlabl>
+        <attrdef>Name of the geographic U.S. state where the survey occurred (e.g. Alabama, Tennessee, Minnesota, etc.). See "Time and Place" for full list of states included in this dataset.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Alabama (see "Place Names" in Keywords for list of remaining state domain values)</edomv>
+            <edomvd>Geographic state of Alabama</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RunID</attrlabl>
+        <attrdef>Unique auto-generated integer assigned to each survey occasion (i.e., datasheet). Use to relate all tables together. Each Run ID appears only once in the Runs table (primary key).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>RunIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated during the original database design and subsequent updates.  RunID numbers are survey specific, i.e. no RunID occurs more than once in the Run entity.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurveyYear</attrlabl>
+        <attrdef>Year data were collected.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1994</rdommin>
+            <rdommax>2015</rdommax>
+            <attrunit>Calendar year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RouteNumber</attrlabl>
+        <attrdef>A unique numeric identifier for each route (i.e. survey path).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Routenumbers are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated and organized by state during the original database design and subsequent updates.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RouteType</attrlabl>
+        <attrdef>Each route is assigned a Route Type that indicates whether a route’s location was randomly selected or selected for a specific location (i.e. selection is not random).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>RO</edomv>
+            <edomvd>“Random Original”; randomly positioned NAAMP routes created when state entered the program</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>RA</edomv>
+            <edomvd>“Random Added”; randomly positioned NAAMP routes that were created later to replace retired routes or to increase state sampling coverage</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NR</edomv>
+            <edomvd>“Non-Random”; route location selected to sample specific locations (e.g. wildlife refuge) or to increase the number of routes in a specific area to meet high volunteer participation (e.g. in/near densely populated cities). NR routes should not be included in analyses that require random samples.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RunNumber</attrlabl>
+        <attrdef>Integer indicating which sampling window (set of sampling dates) the survey belongs to.  Sampling dates were state specific and often adjusted by state coordinators on an annual basis to reflect actual season conditions.  Sampling windows were meant to focus surveys during peak breeding periods to increase species detection probability.  Routes were occasionally surveyed more than once during a sampling window, or not at all depending on volunteer availability/demand or state research objectives.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>First sampling window; targeted late winter/early spring breeders, e.g. Wood Frogs in states with four sampling windows or targeted mid-spring breeders in states with only three sampling windows</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Second sampling window; mid-spring breeders in states with four sampling windows or targeted late spring/early summer breeders in states with only three sampling windows</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Third window of the season; targeted late spring/early summer breeders in states with four sampling windows or mid to late summer breeders in states with only three sampling windows</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Fourth window of the season; targeted mid to late summer breeders in states with four sampling windows</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SurveyDate</attrlabl>
+        <attrdef>Date the route was surveyed</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>4/18/94</rdommin>
+            <rdommax>8/9/2015</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartTime</attrlabl>
+        <attrdef>Time of day the route survey began.  Note, since surveys were done at night, a single survey can span two days (i.e. began before midnight and ended after midnight); keep in mind when considering actual minimum and maximum range survey values, vs. the literal values provided below.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00:00</rdommin>
+            <rdommax>23:59</rdommax>
+            <attrunit>hours:minutes (based on 24 hour clock)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates a StartTime value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EndTime</attrlabl>
+        <attrdef>Time of day the route survey ended. Note, since surveys were done at night, a single survey can span two days (i.e. began before midnight and ended after midnight); keep in mind when considering actual minimum and maximum range survey values, vs. the literal values provided below.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00:00</rdommin>
+            <rdommax>23:59</rdommax>
+            <attrunit>hours:minutes (based on 24 hour clock)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates an EndTime value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartWind</attrlabl>
+        <attrdef>Wind conditions when survey began.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Calm (wind less than 1mph). Smoke rises vertically.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Light Air (wind 1-3 mph); smoke drifts, but weather vane inactive</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Light Breeze (wind 4-7 mph); leaves rustle and you feel wind on face.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Gentle Breeze (wind 8-12 mph); leaves and twigs move around and small flags extend.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Moderate Breeze (wind 13-18 mph); thin branches move and loose papers rise. * Do not conduct NAAMP survey at Level 4, unless in Great Plains</edomvd>
+            <edomvds>Beaufort Wind Scale and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Fresh Breeze (wind 19 mph or greater); small trees begin to sway. ** Do not conduct NAAMP survey at Level 5 in ANY REGIONS</edomvd>
+            <edomvds>Beaufort Wind Scale and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates a StartWind value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartWind</attrlabl>
+        <attrdef>Wind conditions when survey began.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Calm (wind less than 1mph). Smoke rises vertically.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Light Air (wind 1-3 mph); smoke drifts, but weather vane inactive</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Light Breeze (wind 4-7 mph); leaves rustle and you feel wind on face.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Gentle Breeze (wind 8-12 mph); leaves and twigs move around and small flags extend.</edomvd>
+            <edomvds>Beaufort Wind Scale</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Moderate Breeze (wind 13-18 mph); thin branches move and loose papers rise. * Do not conduct NAAMP survey at Level 4, unless in Great Plains</edomvd>
+            <edomvds>Beaufort Wind Scale and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Fresh Breeze (wind 19 mph or greater); small trees begin to sway. ** Do not conduct NAAMP survey at Level 5 in ANY REGIONS</edomvd>
+            <edomvds>Beaufort Wind Scale and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates an EndWind value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartSky</attrlabl>
+        <attrdef>Sky conditions when survey began.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Few clouds (less than 20% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Partly cloudy, scattered or variable sky (20-50% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Cloudy or overcast (greater than 50% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Fog or smoke</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Drizzle or light rain (not affecting hearing ability)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Snow</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Heavy showers (is affecting hearing ability) do not conduct NAAMP survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates a StartSky value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EndSky</attrlabl>
+        <attrdef>Sky conditions when survey ended.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Few clouds (less than 20% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Partly cloudy, scattered or variable sky (20-50% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Cloudy or overcast (greater than 50% of sky)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Fog or smoke</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Drizzle or light rain (not affecting hearing ability)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Snow</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Heavy showers (is affecting hearing ability); do not conduct NAAMP survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates an EndSky value was not provided by Observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TempScale</attrlabl>
+        <attrdef>Temperature scale used by Observer during survey.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>F</edomv>
+            <edomvd>Indicates recorded temperature values (found in Stops Entity under AirTemp attribute label) are in Fahrenheit.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Indicates recorded temperature values (found in Stops Entity under AirTemp attribute label) are in Celsius.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not provide TempScale value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DaysSinceRain</attrlabl>
+        <attrdef>Number of days since last rain event.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>180</rdommax>
+            <attrunit>Days</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not enter a value for DaysSinceRain.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ObserverTackingID</attrlabl>
+        <attrdef>Unique auto-generated integer assigned to each Observer. Observer refers to the individual that collected the data associated with the ObserverTrackingID. An Observer’s TrackingID is constant.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>ObserverTrackingIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated for each Observer.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateEntered</attrlabl>
+        <attrdef>Date data were first entered into NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/2001</rdommin>
+            <rdommax>4/18/2016</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateLastUpdated</attrlabl>
+        <attrdef>Date data were most recently updated/altered in NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/01</rdommin>
+            <rdommax>4/18/16</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QuizScore</attrlabl>
+        <attrdef>The observer’s species identification assessment score associated with the route runs/surveys for that year.  Data from 2006 through 2015 with scores below 65 were not included in dataset.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>65</rdommin>
+            <rdommax>100</rdommax>
+            <attrunit>percentage value</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Producer-defined</edomvd>
+            <edomvds>Indicates survey occurred before 2006 (i.e. before quiz was required for data release).</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>UnifiedProtocol</attrlabl>
+        <attrdef>Indicates whether survey was ran following NAAMP unified protocol (data from 2001-2015) or not (data from 2000 and earlier).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - Data collected following NAAMP unified protocol.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - Data not collected following NAAMP unified protocol.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Stops</enttypl>
+        <enttypd>Contains environmental data collected at the stop survey level.</enttypd>
+        <enttypds>Producer-defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RunID</attrlabl>
+        <attrdef>A unique auto-generated integer assigned to each route survey occasion. Each RunID appears 10 times in the Stops table, since each route has 10 stops during any given survey (Foreign key).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>A unique numeric identifier for each route survey. RunIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated during the original database design and subsequent updates.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopNumber</attrlabl>
+        <attrdef>Integer value, 1-10, identifying which stop along the route survey data are associated with. Each route has 10 stops during any given survey and a site's StopNumber can change from year to year and even from run to run, if route alterations are made, but a site's SiteID remains constant (see SiteID attribute).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>First stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Second stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Third stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Fourth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Fifth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Sixth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Seventh stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Eighth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Ninth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Tenth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteID</attrlabl>
+        <attrdef>A unique numeric identifier for each stop (i.e. survey site) of each route (i.e. survey path).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>StopsiteIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated during the original database design and subsequent updates.  All routes have 10 survey sites during any given sampling year, but occasionally sites are retired and replaced by new sites, hence some routes are associated with more than 10 unique SiteIDs in the datafile as species observations are associated with the specific survey site where the observation occurred.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AirTemp</attrlabl>
+        <attrdef>Air temperature collected at a survey site. See TempScale in Runs table, as values may be reported in Celsius or Fahrenheit.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-1.5</rdommin>
+            <rdommax>99.9</rdommax>
+            <attrunit>Either degrees Celsius or Fahrenheit.</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not enter an AirTemp value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Moon</attrlabl>
+        <attrdef>Values indicate whether moonlight was visible during stop survey.  Moon data field was first added to the field season datasheets in 2006.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - indicates moonlight was visible at stop location</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - indicates moonlight was not visible at stop location</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates Observer did not enter a Moon value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkippedStop</attrlabl>
+        <attrdef>Indicates whether a stop (site) was skipped during a route survey (i.e. site not sampled).  Usually occurs due to safety issues (e.g. road closures or sudden extreme weather conditions).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - the stop was skipped (not sampled) during the route survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - the stop was not skipped (was sampled) during the route survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates Observer did not enter a SkippedStop value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Noise</attrlabl>
+        <attrdef>Noise indicates whether or not the observer indicated that background noise at the listening location impacted their ability to hear (i.e. potentially impacted their ability to accurately detect calling anuran species).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - indicates observer’s hearing was impaired during the site survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - indicates observer’s hearing was not impaired during the site survey.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates Observer did not enter a SkippedStop value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MassNoiseIndex</attrlabl>
+        <attrdef>Integer value (0-4) rating the noise level at each listening location during the survey occasion following the Massachusetts Noise Index.  Each state decided whether to collect noise as Yes/No or as Mass Noise Index. If a state used Mass Noise Index convert values 0-2 to No to use Noise column, and values 3-4 to Yes.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No appreciable effect (e.g. owl calling; equals No in Yes/No Noise system)</edomvd>
+            <edomvds>Massachusetts Noise Index and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Slightly affecting sampling (e.g. distant traffic, dog barking, one car passing; equals No in Yes/No Noise system)</edomvd>
+            <edomvds>Massachusetts Noise Index and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Moderately affecting sampling (e.g. nearby traffic, 2-5 cars passing; equals No in Yes/No Noise system)</edomvd>
+            <edomvds>Massachusetts Noise Index and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Seriously affecting sampling (e.g. continuous traffic nearby, 6-10 cars passing; ; equals Yes in Yes/No Noise system)</edomvd>
+            <edomvds>Massachusetts Noise Index and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Profoundly affecting sampling (e.g. continuous traffic passing, construction noise; equals Yes in Yes/No Noise system)</edomvd>
+            <edomvds>Massachusetts Noise Index and Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates the state did not utilize this method.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartTime</attrlabl>
+        <attrdef>Time of day the survey began at the stop location. Note, since surveys were done at night, a single survey can span two days (i.e. began before midnight and ended after midnight); keep in mind when considering actual minimum and maximum range survey values, vs. the literal values provided below.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>00:00</rdommin>
+            <rdommax>23:59</rdommax>
+            <attrunit>hours and minutes (based on 24 hour clock)</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not enter a value for StartTime</edomvd>
+            <edomvds>Producer-Defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SnowCover</attrlabl>
+        <attrdef>Indicates whether there was snow cover at the listening location during the survey occasion.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - indicates snow cover was present.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - indicates snow cover not present.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not enter SnowCover value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CarCount</attrlabl>
+        <attrdef>Integer values. Observers indicated the number of cars that pass during the listening period. Observers recorded counts greater than 50 as 50.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>50</rdommax>
+            <attrunit>cars</attrunit>
+          </rdom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Null</edomv>
+            <edomvd>Indicates Observer did not enter CarCount value.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateEntered</attrlabl>
+        <attrdef>Date data were first entered into NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/2001</rdommin>
+            <rdommax>4/18/2016</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateLastUpdated</attrlabl>
+        <attrdef>Date data were most recently updated/altered in NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/2001</rdommin>
+            <rdommax>4/18/2016</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Counts</enttypl>
+        <enttypd>Table provides species observation data at the Route, SiteID, and StopNumber level.</enttypd>
+        <enttypds>Producer-defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RunID</attrlabl>
+        <attrdef>Unique auto-generated integer assigned to each survey occasion (i.e., datasheet). Each Run ID appears multiple times in the Counts table, depending on how many species were heard and at how many stops. The RunID may also be absent from the Counts table if no species were heard on a survey occasion (Foreign key).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>A unique numeric identifier for each route survey. RunIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated during the original database design and subsequent updates.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopNumber</attrlabl>
+        <attrdef>Integer value, 1-10, identifying which stop along the route survey data are associated with. Each route has 10 stops during any given survey and a site's StopNumber can change from year to year and even from run to run, if route alterations are made, but a site's SiteID remains constant (see SiteID attribute).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>First stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Second stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Third stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Fourth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Fifth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Sixth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Seventh stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Eighth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>Ninth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Tenth stop of the route/survey</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CallingIndex</attrlabl>
+        <attrdef>Integer value (1-3) rating the calling intensity for each species heard at a listening location.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Individuals can be counted; there is space between calls</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Calls of individuals can be distinguished but there is some overlapping of calls</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Full chorus, calls are constant, continuous and overlapping</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateEntered</attrlabl>
+        <attrdef>Date data in this table were first entered into NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/2001</rdommin>
+            <rdommax>4/18/2016</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DateLastUpdated</attrlabl>
+        <attrdef>Date data in this table were most recently updated/altered in NAAMP database.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3/21/2001</rdommin>
+            <rdommax>9/20/2016</rdommax>
+            <attrunit>Month/Date/Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Coordinates</enttypl>
+        <enttypd>Provides the latitude and longitude values in decimal degrees for route stopsites, on record (coordinates not available for all stopsites in dataset).</enttypd>
+        <enttypds>Producer-defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>RouteNumber</attrlabl>
+        <attrdef>A unique numeric identifier for each route (i.e. survey path).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Routenumbers are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated and organized by state during the original database design and subsequent updates.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SiteID</attrlabl>
+        <attrdef>A unique numeric identifier for each stop (i.e. survey site) of each route (i.e. survey path).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>StopsiteIDs are internal feature numbers, expressed as sequential, unique, whole numbers, that were automatically generated during the original database design and subsequent updates.  All routes have 10 survey sites during any given sampling year, but occasionally sites are retired and replaced by new sites, hence some routes are associated with more than 10 unique SiteIDs in the datafile as species observations are associated with the specific survey site where the observation occurred.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lat</attrlabl>
+        <attrdef>Column contains the latitude (the angular distance of a place north or south of the earth's equator, or of a celestial object north or south of the celestial equator) expressed here in decimal degrees, for each route stopsite.</attrdef>
+        <attrdefs>Oxford Dictionary</attrdefs>
+        <attrdomv>
+          <udom>Numeric geographic place values expressed in decimal degrees.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>lon</attrlabl>
+        <attrdef>Column contains the longitude (angular distance of a place east or west of the Greenwich meridian, or west of the standard meridian of a celestial object) expressed here in decimal degrees, for each route stopsite.</attrdef>
+        <attrdefs>Oxford Dictionary</attrdefs>
+        <attrdomv>
+          <udom>Numeric geographic place values expressed in decimal degrees.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Protocol</enttypl>
+        <enttypd>Provides descriptions of the varying sampling protocol used from 1994 through 2000 by eight states as provided by the associated State Coordinators.  Although protocols in this table are similar to each other and to the unified NAAMP protocol used from 2001 through 2015, they still differ in ways that limit the use of all data together under certain circumstances.</enttypd>
+        <enttypds>Producer-defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>StateProtocolName</attrlabl>
+        <attrdef>Provides state-specific name for the 13 varying sampling protocols used from 1994 through 2000 by eight states.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Louisiana I</edomv>
+            <edomvd>First of three survey protocols used by Louisiana.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Louisiana II</edomv>
+            <edomvd>Second of three survey protocols used by Louisiana.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Louisiana III</edomv>
+            <edomvd>Third of three survey protocols used by Louisiana.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Maine I</edomv>
+            <edomvd>First of two survey protocols used by Maine.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Maine II</edomv>
+            <edomvd>Second of two survey protocols used by Maine.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Maryland I</edomv>
+            <edomvd>First of two survey protocols used by Maryland.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Maryland II</edomv>
+            <edomvd>Second of two survey protocols used by Maryland.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Minnesota I</edomv>
+            <edomvd>First of two survey protocols used by Minnesota.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Minnesota II</edomv>
+            <edomvd>Second of two survey protocols used by Minnesota.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Pennsylvania</edomv>
+            <edomvd>Survey protocol used by Pennsylvania.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Texas</edomv>
+            <edomvd>Survey protocol used by Texas.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Vermont</edomv>
+            <edomvd>Survey protocol used by Vermont.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Virginia</edomv>
+            <edomvd>Survey protocol used by Virginia.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StartYear</attrlabl>
+        <attrdef>Indicates the first year the protocol were used in the associated state.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1994</rdommin>
+            <rdommax>2001</rdommax>
+            <attrunit>Calendar Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EndYear</attrlabl>
+        <attrdef>Indicates the last year the protocol were used in the associated state.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1995</rdommin>
+            <rdommax>2000</rdommax>
+            <attrunit>Calendar Year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WiscIndex</attrlabl>
+        <attrdef>Indicates whether the survey protocol used the exact wording of 'calling index' as defined by the Wisconsin Program (as adopted in NAAMP's unified protocol from 2001 through 2015).</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - different wording was used</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - exact wording was used</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>IndexOther</attrlabl>
+        <attrdef>Exact Call Index wording, as provided by associated State Coordinators where call indexes differed from the Wisconsin Call Index.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Call Index wording, as provided by associated State Coordinators.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates that the Wisconsin Call Index was used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkyCode</attrlabl>
+        <attrdef>Indicates whether the survey protocol adopted the same Sky Code Index used in NAAMP's unified protocol from 2001 through 2015.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - different Sky Codes or no codes were used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - the same Sky Codes were used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SkyCodeOther</attrlabl>
+        <attrdef>Exact Sky Code Index wording, as provided by associated State Coordinators where call indexes differed from those of NAAMP's unified protocol.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Sky Code Index wording, as provided by associated State Coordinators.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates the same Sky Codes as NAAMP's unified protocol were used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WindCode</attrlabl>
+        <attrdef>Indicates whether the survey protocol adopted the same Wind Code Index used in NAAMP's unified protocol from 2001 through 2015.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - a different index or no index was used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - the same index as the unified protocol (Beaufort Index) was used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WindCodeOther</attrlabl>
+        <attrdef>Exact Wind Code Index wording, as provided by associated State Coordinators where call indexes differed from those of NAAMP's unified protocol.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Wind Code Index wording, as provided by associated State Coordinators.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates the same Wind Codes as NAAMP's unified protocol were used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoiseIndex</attrlabl>
+        <attrdef>Indicates whether data on noise interruptions were collected and if so, how.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>No - Noise information was not collected</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Yes - the same index as the unified protocol (yes/no format) was used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Yes - Using the Massachusetts Noise Index definitions</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Yes - State used their own system (codes or otherwise)</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NoiseIndexOther</attrlabl>
+        <attrdef>Exact Noise Index wording, as provided by associated State Coordinators where call indexes differed from those of NAAMP's unified protocol.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>Noise data record method and wording, as provided by State Coordinators in states that used methods differing from those mentioned in NoiseIndex attribute metadata.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>Indicates the same Noise Index as NAAMP's unified protocol was used.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopsInOrder</attrlabl>
+        <attrdef>Indicates whether Observers were instructed and required to sample stops in numerical order (i.e. 1 through 10) during route surveys, every time.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - stops were sampled out of order</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - stops were sampled in numerical order</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OneNightOnly</attrlabl>
+        <attrdef>Indicates whether Observers were instructed and required to complete each route survey in a single night.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>No - Observers were not instructed or required to complete each route survey in a single night.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes - Observers were instructed and required to complete each route survey in a single night</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopsPerRoute</attrlabl>
+        <attrdef>Indicates how many stops were sampled for each route.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Indicates all routes had 10 stops.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Indicates all routes had 12 stops.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Indicates routes had 10-12 stops (variable).</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Indicates routes had 10-15 stops (variable).</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopDistance</attrlabl>
+        <attrdef>Indicates the minimum distance required between stops.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>At least 0.3 miles between stops.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>At least 0.5 miles between stops.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopDistanceOther</attrlabl>
+        <attrdef>State Coordinator provides description of Other stop distance scenarios.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>State did not utilize Other stop distance scenarios.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopPlacement</attrlabl>
+        <attrdef>Indicates how stop placement was selected.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Stops were stratified by habitat (i.e. placed near appropriate habitat, at least a specified distance apart).</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Uniformly spaced, regardless of habitat.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>StopPlacementOther</attrlabl>
+        <attrdef>State Coordinator provides description of Other stop placement scenarios.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>State did not utilize Other stop placement scenarios.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <udom>State Coordinator provides description of Other stop placement scenarios.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumObs</attrlabl>
+        <attrdef>Number of Observers that might contribute data on a single survey datasheet/record.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Only 1 observer.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Potentially 1 to 2 Observers.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Potentially 1 to many Observers (variable).</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumObsOther</attrlabl>
+        <attrdef>State Coordinator provides description of Other Observer Number scenarios, if applicable.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>State Coordinator provides description of Other Observer Number scenarios.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>State did not utilize Other observer number options.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WaitingPeriod</attrlabl>
+        <attrdef>Indicates whether a waiting period was required at each stop before "listening" began.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>A 30 sec waiting period required.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>A 1 minute waiting period required.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>No waiting period required.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ListeningPd</attrlabl>
+        <attrdef>Indicates how long the listening periods at each stop were.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Listening periods were three minutes.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Listening periods were four minutes.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Listening periods were five minutes.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Other</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ListeningPdOther</attrlabl>
+        <attrdef>State Coordinator provides description of Other Listening Period scenarios, if applicable.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <udom>State Coordinator provides description of Other Listening Period scenarios.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>NULL</edomv>
+            <edomvd>State did not utilize Other option.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ListeningExt</attrlabl>
+        <attrdef>Indicates whether Listening Periods were extended to account for breaks due to excessive disruptive noise during survey.</attrdef>
+        <attrdefs>Producer-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Yes, by one minute.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Yes, by two minutes.</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>No</edomvd>
+            <edomvds>Producer-defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>ScienceBase Team</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Denver Federal Center, Building 810, Mail Stop 302</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>sciencebase@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty.</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20200827</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tasha Foreman</cntper>
+          <cntorg>U.S. Geological Survey's Patuxent Wildlife Research Center</cntorg>
+        </cntperp>
+        <cntpos>Biologist - Contractor</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>12100 Beech Forest Rd</address>
+          <city>Laurel</city>
+          <state>MD</state>
+          <postal>21046</postal>
+          <country>United States</country>
+        </cntaddr>
+        <cntvoice>301-497-5693</cntvoice>
+        <cntemail>tforeman@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>
